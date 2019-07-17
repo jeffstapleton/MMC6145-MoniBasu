@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="container"><?php 
+<div class="container"><?php
   if(have_posts()){
     while(have_posts()){
       the_post(); ?>
@@ -10,10 +10,10 @@
       </div>
       <?php the_content(); ?>
       <p><?php echo "This post written by : " . get_the_author(); ?></p>
-<?php    }//end of while loop 
-  }//end if statement 
+<?php    }//end of while loop
+  }//end if statement
  ?>
- 
-</div>
 
+</div>
+<p>Test Comment</p>
  <?php get_footer(); ?>
