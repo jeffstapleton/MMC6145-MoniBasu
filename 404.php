@@ -7,7 +7,7 @@ get_header(); ?>
       <div class="twelve columns">
 
         <h2 class="center">Whoops?!</h2>
-        <h3 class="center">Let me know that you want to hear more about this</h3>
+        <h3 class="center">You followed a link to my page that doesn't exist or I haven't written about that topic yet.</h3>
         <p class="center">Go back to my <a href="<?php echo home_url('/'); ?>">home page</a></p>
 
       </div>
