@@ -2,8 +2,7 @@
 
 get_header(); ?>
 <div class="error">
-<div class="container">
-  <div class="four-background">
+<div class="container center-flex">
     <div class="row four-info">
       <div class="twelve columns">
 
@@ -13,7 +12,6 @@ get_header(); ?>
 
       </div>
     </div>
-  </div>
 </div>
 </div>
 
