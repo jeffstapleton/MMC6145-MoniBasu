@@ -6,8 +6,12 @@
       the_post(); ?>
       
 <!-- Hero Image -->      
-      <div class="post-feature">
-        <?php the_post_thumbnail(); ?>
+      <div id="hero">
+        <div class="row">
+          <div class="twelve columns">
+            <?php the_post_thumbnail(); ?>
+          </div>
+        </div>
       </div>
 
 <!-- Title & Meta -->      
