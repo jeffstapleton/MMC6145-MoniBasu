@@ -58,12 +58,11 @@
   
   <!-- FEATURED SECTION -->
   
-  <div class="container">
+  <div class="container spacer-tb">
     <div class="row">
-      <div class="twelve columns spacer-tb">
         <h4 class="center red">I've Worked With:</h4>
       </div>
-      
+        
       <div class="row thirds-home">
         <div class="one-third column">
           <?php dynamic_sidebar('bottom-left-home'); ?>
@@ -77,7 +76,7 @@
           <?php dynamic_sidebar('bottom-right-home'); ?>
         </div>
       </div>
-      
+        
       <div class="row thirds-home four-five">
         <div class="one-half column">
           <?php dynamic_sidebar('bottom-fourth-home'); ?>
