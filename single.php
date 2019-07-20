@@ -16,8 +16,8 @@ if(have_posts()){
     <div class="container">
       <div class="row">
         <div class="eight columns">
-        <h3 class="post-title red"><?php the_title(); ?></h3>
-        <p class="pub-info post-date"><?php echo get_the_date(); ?> | <?php the_category(' | '); ?></p>
+        <h3 class="red"><?php the_title(); ?></h3>
+        <p><?php echo get_the_date(); ?> | <?php the_category(' | '); ?></p>
         
 <!-- Content Start -->
         
