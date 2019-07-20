@@ -36,6 +36,11 @@ h4{
   font-style:italic;
   font-family: 'proxima_nova_altbold';
 }
+.subtext {
+  font-size:.8em;
+  font-style:italic;
+  font-family: 'proxima_nova';
+}
 
 .no-decor {
   text-decoration:none;
