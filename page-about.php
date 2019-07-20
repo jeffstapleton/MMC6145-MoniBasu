@@ -60,14 +60,15 @@
   </div>
 </div>
 
-<div class="row full-width-flex">
-  <div class="flex-item">
+<div class="row lt-gray-bg bump-padding">
+  
+  <div class="one-third column">
     <?php dynamic_sidebar('bottom-left-about'); ?>
   </div>
-  <div class="flex-item">
+  <div class="one-third column">
     <?php dynamic_sidebar('bottom-middle-about'); ?>
   </div>
-  <div class="flex-item">
+  <div class="one-third column">
     <?php dynamic_sidebar('bottom-right-about'); ?>
   </div>
 </div>
