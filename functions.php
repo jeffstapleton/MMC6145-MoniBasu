@@ -148,8 +148,8 @@
 
     //sidebar widget
     register_sidebar( array(
-      'name'          => ('sidebar'),
-      'id'            => 'sidebar',
+      'name'          => ('Right Sidebar'),
+      'id'            => 'right-sidebar',
       'description'   => 'Right sidebar widget area',
       'before_widget' => '<div class="widget-sidebar">',
       'after_widget'  => '</div>',
