@@ -36,7 +36,7 @@
 
 <div class="container spacer-tb">
   <div class="row">
-    <div class="four columns px-margin">
+    <div class="four columns responsive">
       <?php dynamic_sidebar('left-sidebar'); ?>
       <h4 class="center">Contact Me</h4>
       <a class="social-link email" href="mailo:moni@monibasu.com">Email Me</a>
