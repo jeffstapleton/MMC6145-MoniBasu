@@ -58,11 +58,19 @@
       ?>
     </div>
   </div>
-    
-  </div>
 </div>
 
-
+<div class="row full-width-flex">
+  <div class="flex-item">
+    <?php dynamic_sidebar('bottom-left-about'); ?>
+  </div>
+  <div class="flex-item">
+    <?php dynamic_sidebar('bottom-middle-about'); ?>
+  </div>
+  <div class="flex-item">
+    <?php dynamic_sidebar('bottom-right-about'); ?>
+  </div>
+</div>
 
 
 
