@@ -24,7 +24,7 @@
           <div class="featured-block-image" style="background-image:url(
             <?php echo get_the_post_thumbnail_url($post_id, 'large'); ?>);">
             
-            <h3 class="white"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h3>
+            <h3 class="white"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
             <p><?php the_excerpt(); //the_content(); displays whole content?></p>
           </div>  
         <?php endwhile;
@@ -45,8 +45,8 @@
           
           <div class="one-half column posts">
             <div class="article-home-feature-container">
-              <div class="article-home-feature-image" style="background-image:url(<?php echo get_the_post_thumbnail_url($post_id, 'large'); ?>);">
-              </div>
+              <a href="<?php the_permalink(); ?>" rel="bookmark" class="article-home-feature-image" style="background-image:url(<?php echo get_the_post_thumbnail_url($post_id, 'large'); ?>);">
+              </a>
             </div>
                 <h3 class="center"><a class="no-decor" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                 <p><?php the_excerpt(); //the_content(); displays whole content?></p>
