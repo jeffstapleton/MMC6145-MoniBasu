@@ -1,3 +1,5 @@
+<?php /*Template Name: About Page Template*/ ?> <!-- This code activates the template for selection in the backend post/page maker -->
+
 <?php get_header(); ?>
 
   <!-- HERO SECTION -->
