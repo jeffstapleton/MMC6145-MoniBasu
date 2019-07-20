@@ -175,7 +175,9 @@ ul#menu-main-menu {
   height:500px;
   object-fit:cover;
   margin-bottom:60px;
-  position:center center;
+  background-size:cover;
+  background-position:center;
+
 }
 
 .article-feature-image img,
@@ -185,10 +187,10 @@ ul#menu-main-menu {
   height:auto;
 }
 
-.page-feature-image img {
+/*.page-feature-image img {
   width: 100%;
   height:auto;
-}
+}*
 
 /* ------ HOME PAGE WIDGETS ------ */
 
