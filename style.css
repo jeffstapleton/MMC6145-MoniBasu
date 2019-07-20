@@ -117,7 +117,9 @@ h4{
 .bump-margin {
   margin:5px;
 }
-
+.bump-padding {
+  padding:20px;
+}
 /* ------ NAV ------- */
 
 #custom-nav {
@@ -180,7 +182,6 @@ ul#menu-main-menu {
   margin-bottom:60px;
   background-size:cover;
   background-position:center;
-
 }
 
 .article-feature-image img,
@@ -257,6 +258,9 @@ ul#menu-main-menu {
 
 .container.fullwidth {
     padding: 0;
+}
+.one-third img {
+  width:100%;
 }
 
 img.img-responsive {
