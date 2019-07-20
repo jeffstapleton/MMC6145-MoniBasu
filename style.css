@@ -36,7 +36,8 @@ h4{
   font-style:italic;
   font-family: 'proxima_nova_altbold', Georgia, sans-serif';
 }
-.subtext {
+.subtext,
+.wp-caption-text {
   font-size:.8em;
   font-style:italic;
   font-family: 'Proxima Nova', Georgia, sans-serif; 
@@ -262,6 +263,7 @@ a.button:hover {
   padding:50px 0;
 }
 
-.left-widget-sidebar img{
+.left-widget-sidebar {
   width:100%;
+  display:flex;
 }
