@@ -27,7 +27,7 @@ if(have_posts()){
     ?>
     </div>
     <div class="four columns">
-    <h3>Test Sidebar</h3>
+    <?php dynamic_sidebar('right-sidebar'); ?>
     </div>
   </div>
   
