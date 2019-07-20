@@ -26,7 +26,7 @@
       <div class="four columns responsive">
         <div class="sidebar">
           <img src="http://localhost:8888/monibasu/wp-content/uploads/2019/07/Baby-Noor-03Credit-300x200.jpg" />
-          <p>20130301 CNN Baby Noor BAGHDAD - MAR 01: Writer Moni Basu revisits Baby Noor in Baghdad, Iraq on March 1, 2013. (photo by David S. Holloway/CNN)</p>
+          <p class="subtext">CNN Baby Noor BAGHDAD - Writer Moni Basu revisits Baby Noor in Baghdad, Iraq on March 1, 2013. (photo by David S. Holloway/CNN)</p>
           <?php dynamic_sidebar('left-sidebar'); ?></div> <!-- This gets the sidebar and inserts it here -->
       </div>
 

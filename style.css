@@ -18,28 +18,28 @@ body {
 /* ------ TYPOGRAPHY ------ */
 
 h1{
-  font-family: 'proxima_nova_altbold';
+  font-family: 'proxima_nova_altbold', Georgia, sans-serif';
   font-size:3em;
 }
 h2{
   font-size:2.5em;
   font-style: italic;
-  font-family: 'proxima_nova_altbold';
+  font-family: 'proxima_nova_altbold', Georgia, sans-serif;
 }
 h3{
   font-size:2em;
   font-style: italic;
-  font-family: 'proxima_nova_altbold';
+  font-family: 'proxima_nova_altbold', Georgia, sans-serif';
 }
 h4{
   font-size: 1.6em;
   font-style:italic;
-  font-family: 'proxima_nova_altbold';
+  font-family: 'proxima_nova_altbold', Georgia, sans-serif';
 }
 .subtext {
   font-size:.8em;
   font-style:italic;
-  font-family: 'proxima_nova';
+  font-family: 'Proxima Nova', Georgia, sans-serif; 
 }
 
 .no-decor {
