@@ -151,7 +151,18 @@
       'name'          => ('Right Sidebar'),
       'id'            => 'right-sidebar',
       'description'   => 'Right sidebar widget area',
-      'before_widget' => '<div class="widget-sidebar">',
+      'before_widget' => '<div class="right-widget-sidebar">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    
+    //sidebar widget
+    register_sidebar( array(
+      'name'          => ('Left Sidebar'),
+      'id'            => 'left-sidebar',
+      'description'   => 'Left sidebar widget area',
+      'before_widget' => '<div class="left-widget-sidebar">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'

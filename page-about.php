@@ -15,9 +15,19 @@
             }
           }
         ?>
+        
+      </div>
+    </div>
+  </div>
+  
+  <!-- Content Start -->
+  <div class="container">
+    <div class="row">
+      <div class="four columns">
+        <div class="sidebar"><?php dynamic_sidebar('left-sidebar'); ?></div> <!-- This gets the sidebar and inserts it here -->
       </div>
 
-      <div class="nine columns single-content">
+      <div class="eight columns single-content">
         <?php
           if(have_posts()){
             while(have_posts()){
@@ -27,10 +37,6 @@
             }
           }
         ?>
-      </div>
-
-      <div class="three columns">
-        <div class="sidebar"><?php get_sidebar(); ?></div> <!-- This gets the sidebar and inserts it here -->
       </div>
 
 
