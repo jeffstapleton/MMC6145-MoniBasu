@@ -12,8 +12,8 @@
 
 <!-- Title & Meta -->      
       <div class="container">
-      <h2 class="post-title"><?php the_title(); ?></h2>
-      <p class="pub-info post-date"><?php echo get_the_date(); ?></p>
+      <h3 class="post-title red"><?php the_title(); ?></h3>
+      <p class="pub-info post-date"><?php echo get_the_date(); ?> | <?php the_category(' | '); ?></p>
 
 <!-- Content Start -->
       
