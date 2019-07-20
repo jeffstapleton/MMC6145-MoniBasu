@@ -96,12 +96,8 @@
   
   <div class="contact spacer-tb">
     <div class="container">
-      <h3 class="white center">Contact Me:</h3>
-      <p class="white"> Temporary Content - Widget Coming</p>
-      <p class="white"> Temporary Content - Widget Coming</p>
-      <p class="white"> Temporary Content - Widget Coming</p>
-      <p class="white"> Temporary Content - Widget Coming</p>
-    </div>
+      <?php dynamic_sidebar('contact-widget'); ?>
+      </div>
   </div>
   
   
