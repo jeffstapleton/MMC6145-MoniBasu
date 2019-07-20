@@ -18,7 +18,6 @@
 <!-- Content Start -->
       
       <?php the_content(); ?>
-      <p><?php echo "This post written by : " . get_the_author(); ?></p>
 <?php    }//end of while loop
   }//end if statement
  ?>
