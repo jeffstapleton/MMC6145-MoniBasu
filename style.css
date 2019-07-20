@@ -181,11 +181,23 @@ ul#menu-main-menu {
   background-position:center;
 }
 
-.article-home-feature-image img {
-  width:100%;
-  height:auto;
+.article-home-feature-container {
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-start;
 }
 
+.article-home-feature-image {
+  background-position: center center;
+  background-size: cover;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 120px;
+  height: 200px;
+}
 .lt-gray-bg {
   background:#d7d7d7;
 }

@@ -44,11 +44,14 @@
         <?php static $count1 = 0; if ($count1 == "2") { break; } else { ?>
           
           <div class="one-half column posts">
-            <div class="article-home-feature-image"><?php the_post_thumbnail('medium'); ?></div>
-            <h3 class="center"><a class="no-decor" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-            <p><?php the_excerpt(); //the_content(); displays whole content?></p>
-            <a class="button" href="<?php the_permalink(); ?>">Read More >></a>
-          </div>
+            <div class="article-home-feature-container">
+              <div class="article-home-feature-image" style="background-image:url(<?php echo get_the_post_thumbnail_url($post_id, 'large'); ?>);">
+              </div>
+            </div>
+                <h3 class="center"><a class="no-decor" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                <p><?php the_excerpt(); //the_content(); displays whole content?></p>
+                <a class="button" href="<?php the_permalink(); ?>">Read More >></a>
+              </div>
           
           <?php $count1++; } ?>
         <?php endforeach; ?>
