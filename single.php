@@ -13,7 +13,7 @@
 <!-- Title & Meta -->      
       <div class="container">
       <h2 class="post-title"><?php the_title(); ?></h2>
-      <p class="pub-info post-date"><?php echo "Published: " . get_the_date(); ?></p>
+      <p class="pub-info post-date"><?php echo get_the_date(); ?></p>
 
 <!-- Content Start -->
       
