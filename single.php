@@ -23,5 +23,4 @@
  ?>
 
 </div>
-<p>Test Comment</p>
  <?php get_footer(); ?>
