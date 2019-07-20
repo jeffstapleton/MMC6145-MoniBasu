@@ -135,6 +135,17 @@
       'after_title'   => '</h3>'
     ));
 
+    //Contact block widget
+    register_sidebar( array(
+      'name'          => ('Contact Widget'),
+      'id'            => 'contact-widget',
+      'description'   => 'Contact Me Form Widget',
+      'before_widget' => '<div class="contact-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
   ## ABOUT ##
     //Featured Red About Block
     register_sidebar( array(
