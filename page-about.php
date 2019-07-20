@@ -27,10 +27,10 @@
           <?php dynamic_sidebar('left-sidebar'); ?>
           <h3>Contact Me</h3>
             <a class="social-link email" href="mailo:moni@monibasu.com">Email Me</a>
-            <a class="social-link facebook" href="#">Facebook</a>
-            <a class="social-link twitter" href="#">Twitter</a>
-            <a class="social-link instagram" href="#">Instagram</a>
-            <a class="social-link linkedin" href="#">LinkedIn</a>
+            <a class="social-link facebook" href="https://www.facebook.com/WriterMoni/">Facebook</a>
+            <a class="social-link twitter" href="https://twitter.com/TheMoniBasu">Twitter</a>
+            <a class="social-link instagram" href="https://www.instagram.com/EvilReporterChick/">Instagram</a>
+            <a class="social-link linkedin" href="https://www.linkedin.com/in/monibasu/">LinkedIn</a>
           
         </div> 
 
