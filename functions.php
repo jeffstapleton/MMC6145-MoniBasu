@@ -50,7 +50,7 @@
     register_sidebar( array(
       'name'          => ('header right'),
       'id'            => 'header-right',
-      'description'   => 'Right widget area in the header',
+      'description'   => 'HEADER: Right widget area in the header',
       'before_widget' => '<div class="widget-header widget-right">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
@@ -62,29 +62,18 @@
     register_sidebar( array(
       'name'          => ('Hero Image'),
       'id'            => 'hero-image',
-      'description'   => 'Hero Image on Home Page',
+      'description'   => 'HOME: Hero Image on Home Page',
       'before_widget' => '<div class="hero-image-widget">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
-    
-    //pinned red article
-    /*register_sidebar( array(
-      'name'          => ('Featured Red Block'),
-      'id'            => 'featured-block',
-      'description'   => 'Featured Red Block on Home Page',
-      'before_widget' => '<div class="featured-block-widget">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
-    )); */
   
-    //Contact Form  widget
+    //Contact Form widget
     register_sidebar( array(
       'name'          => ('Contact Form'),
       'id'            => 'contact-form',
-      'description'   => 'Widget area for the contact form',
+      'description'   => 'HOME: Widget area for the contact form',
       'before_widget' => '<div class="contact-form">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
@@ -95,7 +84,7 @@
     register_sidebar( array(
       'name'          => ('Bottom Left Home'),
       'id'            => 'bottom-left-home',
-      'description'   => 'Widget area for bottom left home page',
+      'description'   => 'HOME: Widget area for bottom left home page',
       'before_widget' => '<div class="bottom-left-home">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
@@ -106,7 +95,7 @@
     register_sidebar( array(
       'name'          => ('Bottom Middle Home'),
       'id'            => 'bottom-middle-home',
-      'description'   => 'Widget area for bottom middle home page',
+      'description'   => 'HOME: Widget area for bottom middle home page',
       'before_widget' => '<div class="bottom-middle-home">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
@@ -117,7 +106,7 @@
     register_sidebar( array(
       'name'          => ('Bottom Right Home'),
       'id'            => 'bottom-right-home',
-      'description'   => 'Widget area for bottom right home page',
+      'description'   => 'HOME: Widget area for bottom right home page',
       'before_widget' => '<div class="bottom-right-home">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
@@ -128,7 +117,7 @@
     register_sidebar( array(
       'name'          => ('Bottom Fourth Home'),
       'id'            => 'bottom-fourth-home',
-      'description'   => 'Widget area for bottom 4th home page',
+      'description'   => 'HOME: Widget area for bottom 4th home page',
       'before_widget' => '<div class="bottom-fourth-home">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
@@ -139,34 +128,48 @@
     register_sidebar( array(
       'name'          => ('Bottom Fifth Home'),
       'id'            => 'bottom-fifth-home',
-      'description'   => 'Widget area for bottom fifth home page',
+      'description'   => 'HOME: Widget area for bottom fifth home page',
       'before_widget' => '<div class="bottom-fifth-home">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
 
+  ## ABOUT ##
+    //Featured Red About Block
+    register_sidebar( array(
+      'name'          => ('Featured Red About Block'),
+      'id'            => 'featured-block',
+      'description'   => 'ABOUT: Featured Red Block on About Page',
+      'before_widget' => '<div class="featured-block-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //About Left Sidebar widget
+    register_sidebar( array(
+      'name'          => ('Left Sidebar'),
+      'id'            => 'left-sidebar',
+      'description'   => 'ABOUT: Left sidebar widget area',
+      'before_widget' => '<div class="left-widget-sidebar">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+  
+    ## POST ##
     //sidebar widget
     register_sidebar( array(
       'name'          => ('Right Sidebar'),
       'id'            => 'right-sidebar',
-      'description'   => 'Right sidebar widget area',
+      'description'   => 'POST: Right sidebar widget area',
       'before_widget' => '<div class="right-widget-sidebar">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
     
-    //sidebar widget
-    register_sidebar( array(
-      'name'          => ('Left Sidebar'),
-      'id'            => 'left-sidebar',
-      'description'   => 'Left sidebar widget area',
-      'before_widget' => '<div class="left-widget-sidebar">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
-    ));
 
     //left footerwidget
     register_sidebar( array(
