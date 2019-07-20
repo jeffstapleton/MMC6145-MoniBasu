@@ -141,7 +141,9 @@ ul#menu-main-menu {
   position:center center;
 }
 
-.article-feature-image img {
+.article-feature-image img,
+.responsive,
+.responsive img {
   width:100%;
   height:auto;
 }
@@ -240,4 +242,8 @@ a.button:hover {
 .center-flex {
   background: rgba(255,255,255,0.9);
   padding:50px 0;
+}
+
+.left-widget-sidebar img{
+  width:100%;
 }

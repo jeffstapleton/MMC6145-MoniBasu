@@ -23,11 +23,14 @@
   <!-- Content Start -->
   <div class="container">
     <div class="row">
-      <div class="four columns">
-        <div class="sidebar"><?php dynamic_sidebar('left-sidebar'); ?></div> <!-- This gets the sidebar and inserts it here -->
+      <div class="four columns responsive">
+        <div class="sidebar">
+          <img src="http://localhost:8888/monibasu/wp-content/uploads/2019/07/Baby-Noor-03Credit-300x200.jpg" />
+          <p>20130301 CNN Baby Noor BAGHDAD - MAR 01: Writer Moni Basu revisits Baby Noor in Baghdad, Iraq on March 1, 2013. (photo by David S. Holloway/CNN)</p>
+          <?php dynamic_sidebar('left-sidebar'); ?></div> <!-- This gets the sidebar and inserts it here -->
       </div>
 
-      <div class="eight columns single-content">
+      <div class="eight columns">
         <?php
           if(have_posts()){
             while(have_posts()){
