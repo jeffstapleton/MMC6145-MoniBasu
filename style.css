@@ -132,10 +132,13 @@ ul#menu-main-menu {
 
 /* ------ PAGE & POST HERO IMAGES ------ */
 
-.post-feature img {
+.post-feature img,
+.page-feature img {
   min-width: 100%;
-  height:auto;
+  height:500px;
+  object-fit:cover;
   margin-bottom:60px;
+  position:center center;
 }
 
 .article-feature-image img {
