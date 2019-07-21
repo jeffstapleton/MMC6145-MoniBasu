@@ -57,10 +57,10 @@
       'after_title'   => '</h3>'
     ));
   
-  ## HOME PAGE ##
+## HOME PAGE ##
     //hero image widget
     register_sidebar( array(
-      'name'          => ('Hero Image'),
+      'name'          => ('HOME: Hero Image'),
       'id'            => 'hero-image',
       'description'   => 'HOME: Hero Image on Home Page',
       'before_widget' => '<div class="hero-image-widget">',
@@ -71,7 +71,7 @@
   
     //Contact Form widget
     register_sidebar( array(
-      'name'          => ('Contact Form'),
+      'name'          => ('HOME & ABOUT: Contact Form'),
       'id'            => 'contact-form',
       'description'   => 'HOME: Widget area for the contact form',
       'before_widget' => '<div class="contact-form">',
@@ -82,7 +82,7 @@
   
     //Thirds home block widget
     register_sidebar( array(
-      'name'          => ('Bottom Left Home'),
+      'name'          => ('HOME: Bottom Left Home'),
       'id'            => 'bottom-left-home',
       'description'   => 'HOME: Widget area for bottom left home page',
       'before_widget' => '<div class="bottom-left-home">',
@@ -93,7 +93,7 @@
   
     //Thirds home block widget
     register_sidebar( array(
-      'name'          => ('Bottom Middle Home'),
+      'name'          => ('HOME: Bottom Middle Home'),
       'id'            => 'bottom-middle-home',
       'description'   => 'HOME: Widget area for bottom middle home page',
       'before_widget' => '<div class="bottom-middle-home">',
@@ -104,7 +104,7 @@
   
     //Thirds home block widget
     register_sidebar( array(
-      'name'          => ('Bottom Right Home'),
+      'name'          => ('HOME: Bottom Right Home'),
       'id'            => 'bottom-right-home',
       'description'   => 'HOME: Widget area for bottom right home page',
       'before_widget' => '<div class="bottom-right-home">',
@@ -115,7 +115,7 @@
     
     //Fourth home block widget
     register_sidebar( array(
-      'name'          => ('Bottom Fourth Home'),
+      'name'          => ('HOME: Bottom Fourth Home'),
       'id'            => 'bottom-fourth-home',
       'description'   => 'HOME: Widget area for bottom 4th home page',
       'before_widget' => '<div class="bottom-fourth-home">',
@@ -126,7 +126,7 @@
     
     //Fifth home block widget
     register_sidebar( array(
-      'name'          => ('Bottom Fifth Home'),
+      'name'          => ('HOME:Bottom Fifth Home'),
       'id'            => 'bottom-fifth-home',
       'description'   => 'HOME: Widget area for bottom fifth home page',
       'before_widget' => '<div class="bottom-fifth-home">',
@@ -137,7 +137,7 @@
 
     //Contact block widget
     register_sidebar( array(
-      'name'          => ('Contact Widget'),
+      'name'          => ('HOME & ABOUT: Contact Widget'),
       'id'            => 'contact-widget',
       'description'   => 'Contact Me Form Widget',
       'before_widget' => '<div class="contact-widget">',
@@ -146,10 +146,10 @@
       'after_title'   => '</h3>'
     ));
 
-  ## ABOUT ##
+## ABOUT ##
     //Featured Red About Block
     register_sidebar( array(
-      'name'          => ('Featured Red About Block'),
+      'name'          => ('ABOUT: Featured Red About Block'),
       'id'            => 'featured-block',
       'description'   => 'ABOUT: Featured Red Block on About Page',
       'before_widget' => '<div class="featured-block-widget">',
@@ -160,7 +160,7 @@
 
     //About Left Sidebar widget
     register_sidebar( array(
-      'name'          => ('Left Sidebar'),
+      'name'          => ('ABOUT: Left Sidebar'),
       'id'            => 'left-sidebar',
       'description'   => 'ABOUT: Left sidebar widget area',
       'before_widget' => '<div class="left-widget-sidebar">',
@@ -171,7 +171,7 @@
   
     //Thirds About block widget
     register_sidebar( array(
-      'name'          => ('Bottom Left About'),
+      'name'          => ('ABOUT: Bottom Left About'),
       'id'            => 'bottom-left-about',
       'description'   => 'ABOUT: Image Widget area for bottom left about page',
       'before_widget' => '<div class="bottom-left-about">',
@@ -182,7 +182,7 @@
   
     //Thirds About block widget
     register_sidebar( array(
-      'name'          => ('Bottom Middle About'),
+      'name'          => ('ABOUT: Bottom Middle About'),
       'id'            => 'bottom-middle-about',
       'description'   => 'ABOUT: Widget area for bottom middle about page',
       'before_widget' => '<div class="bottom-middle-about">',
@@ -193,7 +193,7 @@
   
     //Thirds About block widget
     register_sidebar( array(
-      'name'          => ('Bottom Right About'),
+      'name'          => ('ABOUT: Bottom Right About'),
       'id'            => 'bottom-right-about',
       'description'   => 'HOME: Widget area for bottom right about page',
       'before_widget' => '<div class="bottom-right-about">',
@@ -202,66 +202,10 @@
       'after_title'   => '</h3>'
     ));
   
-    ## POST ##
-    //sidebar widget
-    register_sidebar( array(
-      'name'          => ('Right Sidebar'),
-      'id'            => 'right-sidebar',
-      'description'   => 'POST: Right sidebar widget area',
-      'before_widget' => '<div class="right-widget-sidebar">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
-    ));
-    
-
-    //left footerwidget
-    register_sidebar( array(
-      'name'          => ('left footer'),
-      'id'            => 'left footer',
-      'description'   => 'left widget area in the footer',
-      'before_widget' => '<div class="widget-footer widget-left">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
-    ));
-
-    //Middle footerwidget
-    register_sidebar( array(
-      'name'          => ('middle footer'),
-      'id'            => 'middle footer',
-      'description'   => 'middle widget area in the footer',
-      'before_widget' => '<div class="widget-footer widget-middle">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
-    ));
-
-    //Right footerwidget
-    register_sidebar( array(
-      'name'          => ('right footer'),
-      'id'            => 'right footer',
-      'description'   => 'right widget area in the footer',
-      'before_widget' => '<div class="widget-footer widget-right">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
-    ));
-    
-    //BOOK Left Sidebar widget
-    register_sidebar( array(
-      'name'          => ('Book Left Sidebar'),
-      'id'            => 'book-sidebar',
-      'description'   => 'BOOK: Left sidebar widget area',
-      'before_widget' => '<div class="book-widget-sidebar">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
-    ));
-    
+## BOOK ##
     //Featured Red Book Block
     register_sidebar( array(
-      'name'          => ('Featured Red Book Block'),
+      'name'          => ('BOOK: Featured Red Book Block'),
       'id'            => 'featured-book-block',
       'description'   => 'BOOK: Featured Red Block on Book Page',
       'before_widget' => '<div class="featured-book-block-widget">',
@@ -272,10 +216,67 @@
   
     //BOOK: Image Gallery Widget
     register_sidebar( array(
-      'name'          => ('Book Image Gallery'),
+      'name'          => ('BOOK: Image Gallery'),
       'id'            => 'book-image-gallery',
       'description'   => 'BOOK: Image Gallery widget area',
       'before_widget' => '<div class="book-image-gallery">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    
+    //BOOK Left Sidebar widget
+    register_sidebar( array(
+      'name'          => ('BOOK: Left Sidebar'),
+      'id'            => 'book-sidebar',
+      'description'   => 'BOOK: Left sidebar widget area',
+      'before_widget' => '<div class="book-widget-sidebar">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+## FOOTER ##
+    //left footerwidget
+    register_sidebar( array(
+      'name'          => ('FOOTER: left footer'),
+      'id'            => 'left footer',
+      'description'   => 'left widget area in the footer',
+      'before_widget' => '<div class="widget-footer widget-left">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //Middle footerwidget
+    register_sidebar( array(
+      'name'          => ('FOOTER: middle footer'),
+      'id'            => 'middle footer',
+      'description'   => 'middle widget area in the footer',
+      'before_widget' => '<div class="widget-footer widget-middle">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //Right footerwidget
+    register_sidebar( array(
+      'name'          => ('FOOTER: right footer'),
+      'id'            => 'right footer',
+      'description'   => 'right widget area in the footer',
+      'before_widget' => '<div class="widget-footer widget-right">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    
+## POST ##
+    //sidebar widget
+    register_sidebar( array(
+      'name'          => ('post: Right Sidebar'),
+      'id'            => 'right-sidebar',
+      'description'   => 'POST: Right sidebar widget area',
+      'before_widget' => '<div class="right-widget-sidebar">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
