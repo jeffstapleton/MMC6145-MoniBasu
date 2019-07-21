@@ -270,6 +270,39 @@
       'after_title'   => '</h3>'
     ));
   
+    //BOOK: Thirds book block widget
+    register_sidebar( array(
+      'name'          => ('Bottom Left Book'),
+      'id'            => 'bottom-left-book',
+      'description'   => 'BOOK: Widget area for bottom left book page',
+      'before_widget' => '<div class="bottom-left-book">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //BOOK: Thirds book block widget
+    register_sidebar( array(
+      'name'          => ('Bottom Middle Book'),
+      'id'            => 'bottom-middle-book',
+      'description'   => 'BOOK: Widget area for bottom middle book page',
+      'before_widget' => '<div class="bottom-middle-book">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //BOOK: Thirds book block widget
+    register_sidebar( array(
+      'name'          => ('Bottom Right Book'),
+      'id'            => 'bottom-right-book',
+      'description'   => 'BOOK: Widget area for bottom right book page',
+      'before_widget' => '<div class="bottom-right-book">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    
 
   }                   //MAKE SURE YOU PASTE SEP WIDGETS INSIDE BRACKETS!>
 
