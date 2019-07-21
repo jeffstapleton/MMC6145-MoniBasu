@@ -58,15 +58,9 @@
 
 <div class="row lt-gray-bg bump-padding">
   
-  <div class="one-third column">
-    <?php dynamic_sidebar('bottom-left-book'); ?>
+  <div class="column">
+    <?php dynamic_sidebar('book-image-gallery'); ?>
   </div>
-  <div class="one-third column">
-    <?php dynamic_sidebar('bottom-middle-book'); ?>
-  </div>
-  <div class="one-third column">
-    <?php dynamic_sidebar('bottom-right-book'); ?>
-  </div>
-</div>
+</div>  
 
 <?php get_footer(); ?>
