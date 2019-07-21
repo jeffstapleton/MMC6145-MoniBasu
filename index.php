@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container quarter-spacer-bottom quarter-spacer-top">
+<div class="container">
   <div class="row">
 
         <?php query_posts('showposts=2'); ?>
