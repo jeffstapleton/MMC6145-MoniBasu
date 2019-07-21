@@ -249,8 +249,10 @@ ul#menu-main-menu {
 }
 
 .row.four-five {
-  width:80%;
-  margin: 0 auto;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  margin:auto;
 }
 
 .featured-block {
@@ -304,6 +306,9 @@ ul#menu-main-menu {
     padding: 0;
 }
 .one-third img {
+  width:100%;
+}
+.one-half img {
   width:100%;
 }
 

@@ -80,17 +80,15 @@
         </div>
       </div>
         
-      <div class="row thirds-home four-five">
+      <div class="row four-five">
         <div class="one-half column">
           <?php dynamic_sidebar('bottom-fourth-home'); ?>
         </div>  
         <div class="one-half column">
           <?php dynamic_sidebar('bottom-fifth-home'); ?>
         </div>
-        
       </div>
     </div>
-  </div>
   
   <!-- CONTACT FORM -->
   
