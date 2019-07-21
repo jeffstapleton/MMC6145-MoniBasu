@@ -247,6 +247,18 @@
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
+    
+    //BOOK Left Sidebar widget
+    register_sidebar( array(
+      'name'          => ('Book Left Sidebar'),
+      'id'            => 'book-sidebar',
+      'description'   => 'BOOK: Left sidebar widget area',
+      'before_widget' => '<div class="book-widget-sidebar">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+  
 
   }                   //MAKE SURE YOU PASTE SEP WIDGETS INSIDE BRACKETS!>
 
