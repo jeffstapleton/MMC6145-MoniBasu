@@ -331,9 +331,12 @@ img.img-responsive {
   margin-bottom: 2.4rem;
 }
 .twelve.columns.archive:nth-child(even) {
-  background:#f8f8f8;
+  background:#d7d7d7;
 }
 
+.archive-row {
+  padding: 10px 10%;
+}
 
 /* ------ FOOTER ------ */
 
