@@ -5,8 +5,7 @@
     <h2 class="white center"><?php single_cat_title(); ?> Posts</h2>
   </div>
 </div>
-<div class="container">
-  <div class="row">
+  <div class="row archive-row">
     <?php 
     if(have_posts()){
       while(have_posts()){
@@ -22,6 +21,5 @@
     } 
     ?>
   </div>
-</div>
 
 <?php get_footer(); ?>
