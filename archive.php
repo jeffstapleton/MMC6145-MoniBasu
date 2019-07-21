@@ -2,7 +2,7 @@
 
 <?php get_header(); ?>
 
-<div id="hero">
+  <div id="hero" class="hero-red">
   <div class="row">
     <div class="twelve columns">
       <h2 class="white center">Post Archive</h2>
