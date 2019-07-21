@@ -59,13 +59,13 @@
 <div class="row lt-gray-bg bump-padding">
   
   <div class="one-third column">
-    <?php dynamic_sidebar('bottom-left-about'); ?>
+    <?php dynamic_sidebar('bottom-left-book'); ?>
   </div>
   <div class="one-third column">
-    <?php dynamic_sidebar('bottom-middle-about'); ?>
+    <?php dynamic_sidebar('bottom-middle-book'); ?>
   </div>
   <div class="one-third column">
-    <?php dynamic_sidebar('bottom-right-about'); ?>
+    <?php dynamic_sidebar('bottom-right-book'); ?>
   </div>
 </div>
 
