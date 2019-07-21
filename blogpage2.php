@@ -25,7 +25,7 @@
     <div class="one-half column">
       <?php $catquery = new WP_Query( 'cat=3&posts_per_page=1' ); ?>
       <?php while($catquery->have_posts()) : $catquery->the_post(); ?>
-      <?php the_post_thumbnail($post_id, 'large'); ?>
+      <?php the_post_thumbnail($post_id, 'medium'); ?>
       <h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
       <p><?php the_excerpt(); //the_content(); displays whole content?></p>
       </div>  
