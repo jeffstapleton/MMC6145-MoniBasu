@@ -52,6 +52,23 @@ h4{
   text-align:center;
 }
 
+/* ------ BUTTONS ------ */
+
+a.button {
+  background:#BA2316;
+  border:none;
+  color:#fff;
+  font-size:1.3rem;
+  transition: 0.3s;
+}
+
+a.button:hover {
+  transition: 0.3s;
+  background:#A3130E;
+  color:#fff;
+}
+
+
 .social-link {
   width:100%;
   text-align:center;
@@ -268,23 +285,21 @@ img.img-responsive {
   top:0
 }
 
+/* ------ CONTACT FORM ------ */
+
 .contact{
   background:#BA2316;
 }
 
-a.button {
-  background:#BA2316;
-  border:none;
-  color:#fff;
-  font-size:1.3rem;
-  transition: 0.3s;
+.contact-widget h3.widget-title {
+    color: #fff;
 }
 
-a.button:hover {
-  transition: 0.3s;
-  background:#A3130E;
+label {
   color:#fff;
 }
+
+/* ------ FOOTER ------ */
 
 .footer{
   background:#252525;
