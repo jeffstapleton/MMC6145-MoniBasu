@@ -44,7 +44,8 @@ h4{
 }
 
 .bold {
-  font-weight:bold;
+  font-family: 'proxima_nova_altbold', Georgia, sans-serif;
+
 }
 
 .no-decor {
@@ -296,7 +297,9 @@ img.img-responsive {
 }
 
 .contact-widget h3.widget-title {
-    color: #fff;
+  color: #fff;
+  text-align:center;
+  font-family:'proxima_nova_altbold';
 }
 
 label {
