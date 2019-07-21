@@ -26,7 +26,7 @@
   <div class="row float-top">
     <div class="twelve columns float-top">
       <div class="featured-block-image">
-        <h4 class="white"><?php dynamic_sidebar('featured-block'); ?></h4>
+        <p class="mini-float"><?php dynamic_sidebar('featured-book-block'); ?></p>
       </div>
     </div>
   </div>

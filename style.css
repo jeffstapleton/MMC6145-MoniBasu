@@ -146,6 +146,9 @@ input.wpcf7-form-control.wpcf7-submit:hover {
 .float-top {
   margin-top:-150px;
 }
+.mini-float{
+  margin-top:-50px;
+}
 .absolute {
   position:absolute;
 }
