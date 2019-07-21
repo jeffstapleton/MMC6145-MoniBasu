@@ -1,6 +1,15 @@
 <?php /* Template for Archive Page */ ?>
 
 <?php get_header(); ?>
+
+<div id="hero">
+  <div class="row">
+    <div class="twelve columns">
+      <h2 class="white center">Post Archive</h2>
+    </div>
+  </div>
+</div>
+
 <div class="container">
   <div class="row">
     <div class="twelve columns">
