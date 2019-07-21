@@ -1,6 +1,6 @@
-<?php /* Template for Archive Page */
-get_header();
-?>
+<?php /* Template for Archive Page */ ?>
+
+<?php get_header(); ?>
 <div class="container">
   <div class="row">
     <div class="twelve columns">
@@ -20,4 +20,5 @@ get_header();
     </div>
   </div>
 </div>
+
 <?php get_footer(); ?>
