@@ -207,6 +207,11 @@ ul#menu-main-menu {
   justify-content: flex-end;
 }
 
+.nav-spacer {
+  padding-top:60px;
+  padding-bottom:30px;
+}
+
 /* ------ PAGE & POST HERO IMAGES ------ */
 
 .post-feature img,
