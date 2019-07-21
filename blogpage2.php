@@ -20,17 +20,15 @@
   </div>
 </div>
 
-<div class="container">
-  <div class="row spacer-tb">
+<div class="container spacer-tb">
+  <div class="row">
     <div class="one-half column">
       <?php $catquery = new WP_Query( 'cat=3&posts_per_page=1' ); ?>
       <?php while($catquery->have_posts()) : $catquery->the_post(); ?>
-        <div class="featured-block-image"></div>
-          <?php the_post_thumbnail_url($post_id, 'large'); ?>
-        </div>
-          <h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
-          <p><?php the_excerpt(); //the_content(); displays whole content?></p>
-        </div>  
+      <?php the_post_thumbnail($post_id, 'large'); ?>
+      <h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
+      <p><?php the_excerpt(); //the_content(); displays whole content?></p>
+      </div>  
       <?php endwhile;
       wp_reset_postdata();
       ?>
