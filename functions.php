@@ -142,7 +142,7 @@
       'description'   => 'Contact Me Form Widget',
       'before_widget' => '<div class="contact-widget">',
       'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
+      'before_title'  => '<h3 class="widget-title contact-widget-h3">',
       'after_title'   => '</h3>'
     ));
 
