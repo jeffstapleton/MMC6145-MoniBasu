@@ -335,6 +335,13 @@ img.img-responsive {
   font-family:'proxima_nova_altbold';
 }
 
+/* ------ BLOG PAGE ------ */
+
+.blog-thumb img {
+  width:100%;
+  height:auto;
+}
+
 /* ------ ARCHIVE & CATEGORY PAGE LISTING ------ */
 
 .twelve.columns.archive {
