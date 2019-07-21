@@ -60,6 +60,8 @@
   </div>
 </div>
 
+<!-- IMAGE DIV -->
+
 <div class="row lt-gray-bg bump-padding">
   
   <div class="one-third column">
@@ -73,6 +75,46 @@
   </div>
 </div>
 
+<!-- FEATURED SECTION -->
+
+<div class="container spacer-tb">
+  <div class="row">
+      <h4 class="center red">I've Worked With:</h4>
+    </div>
+      
+    <div class="row thirds-home">
+      <div class="one-third column">
+        <?php dynamic_sidebar('bottom-left-home'); ?>
+      </div>
+      
+      <div class="one-third column">
+        <?php dynamic_sidebar('bottom-middle-home'); ?>
+      </div>
+      
+      <div class="one-third column">
+        <?php dynamic_sidebar('bottom-right-home'); ?>
+      </div>
+    </div>
+      
+    <div class="row thirds-home four-five">
+      <div class="one-half column">
+        <?php dynamic_sidebar('bottom-fourth-home'); ?>
+      </div>  
+      <div class="one-half column">
+        <?php dynamic_sidebar('bottom-fifth-home'); ?>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT FORM -->
+
+<div class="contact spacer-tb">
+  <div class="container">
+    <?php dynamic_sidebar('contact-widget'); ?>
+    </div>
+</div>
 
 
 <?php get_footer(); ?>
