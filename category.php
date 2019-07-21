@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-  <div class="container">
+  <div id="hero" class="hero-red">
     <div class="row">
       <h2><?php single_cat_title(); ?> Posts</h2>
         <div class="twelve columns">
