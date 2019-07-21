@@ -226,6 +226,10 @@ ul#menu-main-menu {
   height:auto;
 }
 
+.hero-red {
+  background:#BA2316;
+}
+
 /*.page-feature-image img {
   width: 100%;
   height:auto;
