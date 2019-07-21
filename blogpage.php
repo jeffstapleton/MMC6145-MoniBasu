@@ -1,4 +1,4 @@
-<?php
+<?php /*Template Name: Blog Page Template */ ?>
 
 <?php get_header(); ?>
 
