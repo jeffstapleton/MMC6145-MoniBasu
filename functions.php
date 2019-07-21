@@ -258,6 +258,17 @@
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
+    
+    //Featured Red Book Block
+    register_sidebar( array(
+      'name'          => ('Featured Red Book Block'),
+      'id'            => 'featured-book-block',
+      'description'   => 'BOOK: Featured Red Block on Book Page',
+      'before_widget' => '<div class="featured-book-block-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
   
 
   }                   //MAKE SURE YOU PASTE SEP WIDGETS INSIDE BRACKETS!>
