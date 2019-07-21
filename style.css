@@ -29,22 +29,22 @@ h2{
 h3{
   font-size:2em;
   font-style: italic;
-  font-family: 'proxima_nova_altbold', Georgia, sans-serif';
+  font-family: 'proxima_nova_altbold';
 }
 h4{
   font-size: 1.6em;
   font-style:italic;
-  font-family: 'proxima_nova_altbold', Georgia, sans-serif';
+  font-family: 'proxima_nova_altbold';
 }
 .subtext,
 .wp-caption-text {
   font-size:.8em;
   font-style:italic;
-  font-family: 'Proxima Nova', Georgia, sans-serif; 
+  font-family: 'Proxima Nova'; 
 }
 
 .bold {
-  font-family: 'proxima_nova_altbold', Georgia, sans-serif;
+  font-family: 'proxima_nova_altbold';
 
 }
 
@@ -309,7 +309,7 @@ img.img-responsive {
   background:#BA2316;
 }
 
-.contact-widget h3.widget-title {
+.contact-widget-h3 {
   color: #fff;
   text-align:center;
   font-family:'proxima_nova_altbold';
