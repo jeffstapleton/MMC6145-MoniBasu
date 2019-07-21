@@ -2,8 +2,8 @@
 
 <?php get_header(); ?>
 
-  <div id="hero" class="hero-red">
-  <div class="row">
+  <div id="hero">
+  <div class="row hero-red nav-spacer">
     <div class="twelve columns">
       <h2 class="white center">Post Archive</h2>
     </div>
