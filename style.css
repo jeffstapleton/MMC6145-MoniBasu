@@ -73,7 +73,6 @@ a.button:hover {
   color:#fff;
 }
 
-
 .social-link {
   width:100%;
   text-align:center;
@@ -90,6 +89,20 @@ a.button:hover {
   color:#888;
   transition: 0.2s ease-in;
 }
+input.wpcf7-form-control.wpcf7-submit { /*contact submit button */
+  background: #252525;
+  color: #fff;
+  border: none;
+  padding: 0 80px;
+  transition: 0.2s ease-in;
+}
+
+input.wpcf7-form-control.wpcf7-submit:hover {
+  color: #999;
+  transition: 0.2s ease-in;
+  background:#222;
+}
+
 /* ------ COLORS ------ */
 
 .red {
