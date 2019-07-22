@@ -25,7 +25,7 @@
     <div class="one-half column">
       <?php $catquery = new WP_Query( 'cat=4&posts_per_page=1' ); ?>
       <?php while($catquery->have_posts()) : $catquery->the_post(); ?>
-        <h4="no-decor"><?php echo the_category(); ?></h4>
+        <h4 class="no-decor"><?php echo the_category(); ?></h4>
         <div class="blog-thumb">
           <?php the_post_thumbnail($post_id, 'medium'); ?>
         </div>
