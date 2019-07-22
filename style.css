@@ -50,11 +50,18 @@ h4{
 
 .no-decor {
   text-decoration:none;
-  display:inline
+  display:inline;
+  list-style:none;
 }
 
 .center {
   text-align:center;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  text-decoration: none;
 }
 
 /* ------ BUTTONS ------ */
