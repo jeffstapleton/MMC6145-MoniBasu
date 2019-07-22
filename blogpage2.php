@@ -29,7 +29,7 @@
         <div class="blog-thumb">
           <?php the_post_thumbnail($post_id, 'medium'); ?>
         </div>
-        <h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
+        <a class="bold black" href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
         <p><?php the_excerpt(); //the_content(); displays whole content?></p>
       </div>  
     <?php endwhile;
@@ -43,7 +43,7 @@
         <div class="blog-thumb">
           <?php the_post_thumbnail($post_id, 'medium'); ?>
         </div>
-        <h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
+        <a class="bold black" href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
         <p><?php the_excerpt(); //the_content(); displays whole content?></p>
       </div>  
     <?php endwhile;
@@ -59,7 +59,7 @@
         <div class="blog-thumb">
           <?php the_post_thumbnail($post_id, 'medium'); ?>
         </div>
-        <h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
+        <a class="bold black" href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
         <p><?php the_excerpt(); //the_content(); displays whole content?></p>
       </div>  
     <?php endwhile;
@@ -73,7 +73,7 @@
         <div class="blog-thumb">
           <?php the_post_thumbnail($post_id, 'medium'); ?>
         </div>
-        <h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
+        <a class="bold black" href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
         <p><?php the_excerpt(); //the_content(); displays whole content?></p>
       </div>  
     <?php endwhile;
