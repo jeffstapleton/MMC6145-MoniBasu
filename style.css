@@ -10,8 +10,8 @@
 
 /* ------ GENERAL ------ */
 
-body { 
-  font-family: 'Proxima Nova', Georgia, sans-serif; 
+body {
+  font-family: 'Proxima Nova', Georgia, sans-serif;
   font-size:1.7rem;
 }
 
@@ -40,7 +40,7 @@ h4{
 .wp-caption-text {
   font-size:.8em;
   font-style:italic;
-  font-family: 'Proxima Nova'; 
+  font-family: 'Proxima Nova';
 }
 
 .bold {
@@ -305,6 +305,15 @@ ul#menu-main-menu {
   height: 200px;
   content:"";
 }
+
+a.wpp-post-title {
+    display: block;
+}
+
+.right-widget-sidebar a {
+    display: block;
+}
+
 .lt-gray-bg {
   background:#d7d7d7;
 }
