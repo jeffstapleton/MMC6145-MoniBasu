@@ -10,8 +10,8 @@
 
 /* ------ GENERAL ------ */
 
-body { 
-  font-family: 'Proxima Nova', Georgia, sans-serif; 
+body {
+  font-family: 'Proxima Nova', Georgia, sans-serif;
   font-size:1.7rem;
 }
 
@@ -105,7 +105,10 @@ img.custom-logo {
 
 ul#menu-main-menu {
   padding: 20px;
+  margin: 16px;
 }
+
+
 
 #menu-main-menu li {
   display:inline;
