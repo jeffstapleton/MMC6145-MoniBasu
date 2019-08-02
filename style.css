@@ -108,8 +108,6 @@ ul#menu-main-menu {
   margin: 16px;
 }
 
-
-
 #menu-main-menu li {
   display:inline;
   padding:20px;
@@ -139,7 +137,7 @@ margin: 0 auto;
 }
 .featured-block-image{
   padding:50px;
-  background-color: #ce1818;
+  background-color: #767676;
   background-blend-mode:multiply;
   overflow: hidden;
   background-size:cover;
