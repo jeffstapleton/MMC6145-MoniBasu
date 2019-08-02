@@ -185,11 +185,12 @@ img.img-responsive {
 }
 
 a.button {
-  background:#BA2316;
-  border:none;
-  color:#fff;
-  font-size:1.3rem;
+  background: #045b99;
+  border: none;
+  color: #fff;
+  font-size: 1.3rem;
   transition: 0.3s;
+  margin-bottom: 25px;
 }
 
 a.button:hover {
