@@ -289,19 +289,18 @@ ul#menu-main-menu {
 
 .featured-block-image{
   padding:50px;
-  background-color: #ce1818;
+  background-color: rgba(0,0,0,0.7);
   background-blend-mode:multiply;
   overflow: hidden;
   background-size:cover;
   background-position:center;
   transform-origin:center center;
-  filter:brightness(85%);
   transition: all .4s ease-in-out;
 }
 
 .featured-block-image:hover {
-  filter:brightness(120%);
-  transform:scale(1.02);
+  background-color: rgba(0,0,0,0.6);
+  transform:scale(1.01);
   transition: all .4s ease-in-out;
 
 }
