@@ -2,7 +2,7 @@
 
 <div id="hero">
   <div class="row hero-red nav-spacer">
-    <h2 class="white center"><?php single_cat_title(); ?> Posts</h2>
+    <h2 class="white"><?php single_cat_title(); ?> Posts</h2>
   </div>
 </div>
   <div class="row">
