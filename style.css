@@ -114,6 +114,13 @@ input.wpcf7-form-control.wpcf7-submit:hover {
   background:#222;
 }
 
+label {
+  color:#fff;
+}
+input {
+  color:#252525;
+}
+
 /* ------ COLORS ------ */
 
 .red {
