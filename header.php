@@ -10,6 +10,7 @@
   </head>
   
   <body>
+    <nav class="desktop-menu">
     <nav id="custom-nav">
         <div id="logo">
           <?php if ( function_exists('the_custom_logo')) {
@@ -23,6 +24,18 @@
           ));
           ?>
         </div>
+      </nav>
+      </nav>
+      
+      <nav class="mobile-menu">
+        <nav id="custom-nav">
+            <div id="logo">
+              <?php if ( function_exists('the_custom_logo')) {
+                the_custom_logo();
+              } ?>
+            </div>
+      <p class="center white">WORD</p>
+    </nav>
       </nav>  
 
 
