@@ -302,4 +302,8 @@
     <?php
     }
 
+  //ADD page excerpt suppport
+
+    add_post_type_support( 'page', 'excerpt' );
+
 ?>

@@ -232,6 +232,12 @@ ul#menu-main-menu {
   text-transform:uppercase;
   text-decoration:none;
   justify-content: flex-end;
+  transition: 0.3s;
+}
+#menu-main-menu li a:hover {
+  transition: 0.3s;
+  color:#A3130E;
+  
 }
 
 .nav-spacer {
