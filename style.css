@@ -274,16 +274,15 @@ ul#menu-main-menu {
 /* ------ HOME PAGE WIDGETS ------ */
 
 .row.thirds-home {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.row.four-five {
-  display:inline-flex;
+.row.twos-home{
+  display:flex;
   align-items:center;
   justify-content:center;
-  margin:auto;
 }
 
 .featured-block {

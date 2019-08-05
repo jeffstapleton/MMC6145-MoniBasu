@@ -87,16 +87,15 @@
           <?php dynamic_sidebar('bottom-right-home'); ?>
         </div>
       </div>
-
-      <div class="row four-five">
-        <div class="one-half column">
+      <div class="row twos-home">
+        <div class="five columns">
           <?php dynamic_sidebar('bottom-fourth-home'); ?>
         </div>
-        <div class="one-half column">
+        <div class="five columns">
           <?php dynamic_sidebar('bottom-fifth-home'); ?>
         </div>
       </div>
-    </div>
+      </div>
 
   <!-- CONTACT FORM -->
 
