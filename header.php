@@ -23,10 +23,6 @@
             'container-class' => 'menu-header'
           ));
           ?>
-        </div>
+        </div>  
+      </nav>
       </nav>  
-
-
-
-
-

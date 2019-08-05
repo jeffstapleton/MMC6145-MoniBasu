@@ -12,7 +12,7 @@
 
   //JAVASCRIPT file
     wp_enqueue_script('javascript', get_template_directory_uri() . '/js/script.js');
-
+        
   add_action('wp_enqueue_scripts','link_css_stylesheet');
 
 ## -------------------- MENU REGISTRATION -------------------- ## 
@@ -22,7 +22,6 @@
       register_nav_menus( array(
         'header-menu' => __('header menu'),
         'footer-menu' => __('footer menu'),
-        'mobile-menu' => __('mobile menu')
       ));
     }
     
