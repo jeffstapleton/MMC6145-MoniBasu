@@ -10,21 +10,19 @@
   </head>
   
   <body>
-    <nav class="desktop-menu">
     <nav id="custom-nav">
         <div id="logo">
           <?php if ( function_exists('the_custom_logo')) {
             the_custom_logo();
           } ?>
         </div>
-        <div class="nav-block">
+        <div class="nav-block desktop-menu">
           <?php wp_nav_menu(array(
             'theme_location' => 'header-menu',
             'container-class' => 'menu-header'
           ));
           ?>
         </div>
-      </nav>
       </nav>
       <?php 
       if ( function_exists('has_nav_menu') && has_nav_menu('mobile-menu') ) {

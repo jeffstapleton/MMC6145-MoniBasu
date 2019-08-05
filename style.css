@@ -198,6 +198,10 @@ input {
   transition: background-color 0.4s ease-out;
 }
 
+.mobile-menu {
+ display:none;
+}
+
 /* ------ NAV LOGO ------ */
 
 #logo {
@@ -428,5 +432,12 @@ img.img-responsive {
   .single.eight.columns {
     width:100%;
     display:block;
+  }
+  
+  .mobile-menu {
+    display:block;
+  }
+  .desktop-menu {
+    display:none;
   }
 }
