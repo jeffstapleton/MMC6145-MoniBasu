@@ -378,6 +378,15 @@ img.img-responsive {
   font-family:'proxima_nova_altbold';
 }
 
+.wpcf7 input,
+.wpcf7 textarea {
+  width:100%;
+}
+
+.wpcf7 textarea {
+  height:130px;
+}
+
 /* ------ BLOG PAGE ------ */
 
 .blog-thumb img {
