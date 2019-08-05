@@ -239,11 +239,15 @@ ul#menu-main-menu {
 }
 
 /* ------ PAGE & POST HERO IMAGES ------ */
+#hero img{
+  max-height:600px;
+}
 
 .post-feature img,
 .page-feature img {
   width: 100%;
   height:auto;
+  max-height:600px;
   object-fit:cover;
   margin-bottom:60px;
   background-size:cover;
