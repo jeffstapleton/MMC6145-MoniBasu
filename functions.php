@@ -21,12 +21,14 @@
     function custom_menus(){ //this just creates the function
       register_nav_menus( array(
         'header-menu' => __('header menu'),
-        'footer-menu' => __('footer menu')
+        'footer-menu' => __('footer menu'),
+        'mobile-menu' => __('mobile menu')
       ));
     }
     
     add_action('init', 'custom_menus'); //this will insert it into the wordpress code
-    
+
+  }  
 ## -------------------- LOGO -------------------- ## 
 
   function moni_custom_logo_setup() { //https://developer.wordpress.org/themes/functionality/custom-logo/
