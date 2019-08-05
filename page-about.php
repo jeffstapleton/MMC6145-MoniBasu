@@ -36,7 +36,7 @@
 
 <div class="container spacer-tb">
   <div class="row">
-    <div class="four columns responsive">
+    <div class="single four columns responsive">
       <?php dynamic_sidebar('left-sidebar'); ?>
       <h4 class="center">Contact Me</h4>
       <a class="social-link email" href="mailo:moni@monibasu.com">Email Me</a>
@@ -46,7 +46,7 @@
       <a class="social-link linkedin" href="https://www.linkedin.com/in/monibasu/">LinkedIn</a>
     </div> 
 <!-- Content Start -->
-    <div class="eight columns">
+    <div class="single eight columns">
       <?php
       if(have_posts()){
         while(have_posts()){

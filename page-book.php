@@ -36,11 +36,11 @@
 
 <div class="container spacer-tb">
   <div class="row">
-    <div class="four columns responsive">
+    <div class="single four columns responsive">
       <?php dynamic_sidebar('book-sidebar'); ?>
     </div> 
 <!-- Content Start -->
-    <div class="eight columns">
+    <div class="single eight columns">
       <?php
       if(have_posts()){
         while(have_posts()){

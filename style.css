@@ -421,3 +421,11 @@ img.img-responsive {
   width:100%;
   display:flex;
 }
+
+@media (max-width: 750px) {
+  .single.four.columns.responsive,
+  .single.eight.columns {
+    width:100%;
+    display:block;
+  }
+}
