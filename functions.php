@@ -28,7 +28,6 @@
     
     add_action('init', 'custom_menus'); //this will insert it into the wordpress code
 
-  }  
 ## -------------------- LOGO -------------------- ## 
 
   function moni_custom_logo_setup() { //https://developer.wordpress.org/themes/functionality/custom-logo/
