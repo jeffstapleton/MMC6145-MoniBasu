@@ -22,13 +22,16 @@ get_header(); ?>
   <div class="row">
     <div class="nine columns">
       <?php query_posts('posts_per_page=5');
-      if(have_posts()){ 
-        while(have_posts()){
-           the_post();
-      the_excerpt();
-    } 
-  } 
-  ?>
+      if(have_posts()) : 
+        while(have_posts()) :
+           the_post(); ?>
+           <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+           <?php the_post_thumbnail('medium'); ?>
+                <?php publish_author_date(); ?>
+                <p><?php the_excerpt(); ?></p>
+                <a href="<?php the_permalink(); ?>">Read More...</a> <?php
+    endwhile; 
+  endif; ?>
 
 </div>
       <div class="three columns">
