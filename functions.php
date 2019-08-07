@@ -43,6 +43,18 @@
   add_action( 'after_setup_theme', 'moni_custom_logo_setup' );
 
 ## -------------------- WIDGETS / SIDEBAR REGISTRATION -------------------- ## 
+  
+  //ADD FAVICON TO DASHBOARD
+    function add_my_favicon() {
+      $favicon_path = get_template_directory_uri() . '/images/favicon.ico';
+
+      echo '<link rel="shortcut icon" href="' . esc_url($favicon_path) . '" />';
+      }
+
+    add_action( 'wp_head', 'add_my_favicon' ); //front end
+    add_action( 'admin_head', 'add_my_favicon' ); //admin end
+
+## -------------------- WIDGETS / SIDEBAR REGISTRATION -------------------- ## 
 
   //ADD WIDGETS
   function blank_widgets_init(){
