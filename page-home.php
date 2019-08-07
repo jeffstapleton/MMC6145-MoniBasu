@@ -10,7 +10,7 @@
       if(have_posts()){
         while(have_posts()){
           the_post(); ?>
-          <div class="page-feature"><?php the_post_thumbnail('large'); ?></div>
+          <div class="page-feature"><?php the_post_thumbnail('medium'); ?></div>
           <?php
         }
       }
@@ -30,7 +30,7 @@
         <?php $catquery = new WP_Query( 'cat=3&posts_per_page=1' ); ?>
         <?php while($catquery->have_posts()) : $catquery->the_post(); ?>
           <div class="featured-block-image" style="background-image:url(
-            <?php echo get_the_post_thumbnail_url($post_id, 'large'); ?>);">
+            <?php echo get_the_post_thumbnail_url($post_id, 'medium'); ?>);">
 
             <h3 class="white"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
             <p><?php the_excerpt(); //the_content(); displays whole content?></p>
