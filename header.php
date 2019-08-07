@@ -25,8 +25,9 @@
           ?>
         </div>  
       </nav>
-      </nav>  
-      
+    </nav>
+    <div class="mobile-row">
       <div class="responsive-logo"><?php if ( function_exists('the_custom_logo')) {
-        the_custom_logo();
-      } ?></div>
+        the_custom_logo();} ?>
+      </div>
+    </div>
