@@ -88,10 +88,10 @@
     </div>
       
     <div class="row thirds-home four-five">
-      <div class="one-half column">
+      <div class="five columns">
         <?php dynamic_sidebar('bottom-fourth-home'); ?>
       </div>  
-      <div class="one-half column">
+      <div class="five columns">
         <?php dynamic_sidebar('bottom-fifth-home'); ?>
       </div>
       
