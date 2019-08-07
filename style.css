@@ -256,9 +256,7 @@ a.responsive-menu-item-link {
   padding-bottom:60px;
 }
 
-button#responsive-menu-button {
-    margin: 80px 40px 0 0;
-}
+
 
 /* ------ PAGE & POST HERO IMAGES ------ */
 #hero img{
@@ -467,5 +465,9 @@ img.img-responsive {
   #responsive-logo img.custom-logo {
     width:150px;
     margin:25px 0 0 40px;
+  }
+  
+  button#responsive-menu-button {
+      margin: 80px 40px 0 0!important;
   }
 }
