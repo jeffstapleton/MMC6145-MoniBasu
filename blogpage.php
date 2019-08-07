@@ -1,4 +1,4 @@
-<?php /*Template Name: Blog Page Template */
+<?php /*Template Name: Blog Page no Sidebar Template */
 
 get_header(); ?>
 
