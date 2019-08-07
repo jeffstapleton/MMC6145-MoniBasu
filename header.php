@@ -10,7 +10,7 @@
   </head>
   <body>
     <nav class="desktop-menu">
-    <nav id="custom-nav">
+      <nav id="custom-nav">
         <div id="logo">
           <?php if ( function_exists('the_custom_logo')) {
             the_custom_logo();
@@ -25,6 +25,6 @@
         </div>  
       </nav>
     </nav>
-      <div id="responsive-logo"><?php if ( function_exists('the_custom_logo')) {
-        the_custom_logo();} ?>
-      </div>
+    <div id="responsive-logo"><?php if ( function_exists('the_custom_logo')) {
+      the_custom_logo();} ?>
+    </div>
