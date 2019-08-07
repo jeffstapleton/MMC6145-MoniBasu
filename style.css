@@ -456,9 +456,11 @@ img.img-responsive {
   }
   
   .responsive-logo {
+    display:flex;
     position:absolute;
   }
   .responsive-logo img.custom-logo {
-    width:200px;
+    width:150px;
+    margin:25px 0 0 40px;
   }
 }
