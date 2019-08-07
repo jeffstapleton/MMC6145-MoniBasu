@@ -33,7 +33,7 @@ get_header(); ?>
             
             <?php publish_author_date(); ?>
             <p><?php the_excerpt(); ?></p>
-            <a href="<?php the_permalink(); ?>">Read More...</a> 
+            <a class="button" href="<?php the_permalink(); ?>">Read More >></a> 
           </div>
         </div>
         <?php
