@@ -1,11 +1,11 @@
 /*
-  Theme Name: Moni
-  Theme URI:
-  Author: UF STUDENTS
-  Description: Custom Theme for MoniBasu.com - Developed by UFL Students
-  Version: 1.0
-  License: Open
-  Text Domain: web_interactivity
+Theme Name: Moni
+Theme URI:
+Author: UF STUDENTS
+Description: Custom Theme for MoniBasu.com - Developed by UFL Students
+Version: 1.0
+License: Open
+Text Domain: web_interactivity
 */
 
 /* ------ GENERAL ------ */
@@ -49,7 +49,7 @@ h4{
   text-transform: uppercase;
   text-decoration: none;
   padding-top: 10px;
-
+  
 }
 
 .no-decor {
@@ -101,6 +101,7 @@ a.button:hover {
   color:#888;
   transition: 0.2s ease-in;
 }
+
 input.wpcf7-form-control.wpcf7-submit { /*contact submit button */
   background: #252525;
   color: #fff;
@@ -238,6 +239,7 @@ ul#menu-main-menu {
   justify-content: flex-end;
   transition: 0.3s;
 }
+
 #menu-main-menu li a:hover {
   transition: 0.3s;
   color:#A3130E;  
@@ -246,17 +248,15 @@ ul#menu-main-menu {
 /* -- HAMBURGER --- */
 
 a.responsive-menu-item-link {
-    font-size: 2em!important;
-    text-transform: uppercase;
-    text-align: center;
+  font-size: 2em!important;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .nav-spacer {
   padding-top:120px;
   padding-bottom:60px;
 }
-
-
 
 /* ------ PAGE & POST HERO IMAGES ------ */
 #hero img{
@@ -284,11 +284,6 @@ a.responsive-menu-item-link {
 .hero-red {
   background:#BA2316;
 }
-
-/*.page-feature-image img {
-  width: 100%;
-  height:auto;
-}*
 
 /* ------ HOME PAGE WIDGETS ------ */
 
@@ -325,7 +320,6 @@ a.responsive-menu-item-link {
   background-color: rgba(0,0,0,0.6);
   transform:scale(1.01);
   transition: all .4s ease-in-out;
-
 }
 
 .article-home-feature-container {
@@ -348,11 +342,11 @@ a.responsive-menu-item-link {
 }
 
 a.wpp-post-title {
-    display: block;
+  display: block;
 }
 
 .right-widget-sidebar a {
-    display: block;
+  display: block;
 }
 
 .lt-gray-bg {
@@ -370,7 +364,7 @@ a.wpp-post-title {
 }
 
 .container.fullwidth {
-    padding: 0;
+  padding: 0;
 }
 .one-third img {
   width:100%;
@@ -468,6 +462,6 @@ img.img-responsive {
   }
   
   button#responsive-menu-button {
-      margin: 80px 40px 0 0!important;
+    margin: 80px 40px 0 0!important;
   }
 }
