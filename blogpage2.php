@@ -34,6 +34,7 @@ get_header(); ?>
           </div>
           <a class="bold black" href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
           <p><?php the_excerpt(); //the_content(); displays whole content?></p>
+        <a class="button" href="<?php the_permalink(); ?>">Read More >></a>
         </div>  
       <?php endwhile;
       wp_reset_postdata();
@@ -48,6 +49,7 @@ get_header(); ?>
           </div>
           <a class="bold black" href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
           <p><?php the_excerpt(); //the_content(); displays whole content?></p>
+        <a class="button" href="<?php the_permalink(); ?>">Read More >></a>
         </div>  
       <?php endwhile;
       wp_reset_postdata();
