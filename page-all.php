@@ -38,11 +38,12 @@ get_header(); ?>
     endwhile; 
   endif; ?>
 
-</div>
+
       <div class="three columns">
         <div class="sidebar"><?php dynamic_sidebar('blog-container-sidebar'); ?>
         <h2>fart</h2>
         </div> <!-- This gets the sidebar and inserts it here -->
+      </div>
       </div>
 
 
