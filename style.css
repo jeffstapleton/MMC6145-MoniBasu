@@ -416,6 +416,10 @@ img.img-responsive {
   background:#d7d7d7;
 }
 
+.archive:nth-child(even) {
+  background:#d7d7d7;
+}
+
 .archive-row {
   padding: 10px 10%;
 }
