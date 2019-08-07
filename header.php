@@ -8,7 +8,6 @@
     
     <?php wp_head(); ?>
   </head>
-  
   <body>
     <nav class="desktop-menu">
     <nav id="custom-nav">
