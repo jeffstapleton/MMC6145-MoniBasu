@@ -99,19 +99,21 @@ get_header(); ?>
 <div class="twelve columns">
 <h4 class="center">All Posts:</h4>
 
-<?php 
-if ( have_posts() ) {
-	while ( have_posts() ) {
-		the_post(); 
-		//
-		// Post Content here
-		//
-	} // end while
-} // end if
+<?php if(have_posts()){
+  while(have_posts()){
+    the_post();?>
+    <div class="twelve columns individual-post">
+      <h3><a href="<?php the_permalink() ?>"><?php
+      the_title(); ?></a></h3>
+      <p>Published on: <?php the_time('F j, Y'); ?></p>
+      <p><?php the_excerpt(); ?></p>
+    </div>
+    <?php
+  }// ends while loop
+}// ends if statement
 ?>
 
 </div>
-
 </div>
 </div>
 
