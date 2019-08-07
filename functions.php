@@ -31,8 +31,8 @@
 
   function moni_custom_logo_setup() { //https://developer.wordpress.org/themes/functionality/custom-logo/
    $defaults = array(
-   'height'      => 100,
-   'width'       => 200,
+   'height'      => 200,
+   'width'       => 400,
    'flex-height' => true,
    'flex-width'  => true,
    'header-text' => array( 'site-title', 'site-description' ),
