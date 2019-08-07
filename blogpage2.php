@@ -1,6 +1,6 @@
-<?php /*Template Name: Blog Page Template2 */ ?>
+<?php /*Template Name: Blog Page Template2 */
 
-<?php get_header(); ?>
+get_header(); ?>
 
 <!-- HERO SECTION -->
 <div id="hero">
@@ -35,7 +35,7 @@
     <?php endwhile;
     wp_reset_postdata();
     ?>
-  
+    
     <div class="one-half column">
       <?php $catquery = new WP_Query( 'cat=5&posts_per_page=1' ); ?>
       <?php while($catquery->have_posts()) : $catquery->the_post(); ?>
@@ -65,7 +65,7 @@
     <?php endwhile;
     wp_reset_postdata();
     ?>
-  
+    
     <div class="one-half column">
       <?php $catquery = new WP_Query( 'cat=7&posts_per_page=1' ); ?>
       <?php while($catquery->have_posts()) : $catquery->the_post(); ?>
