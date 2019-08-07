@@ -25,36 +25,36 @@ get_header(); ?>
     <div class="nine columns">
       <h4 class="center">Featured Categories:</h4>
       <div class="row">
-      <div class="one-half column">
-        <?php $catquery = new WP_Query( 'cat=4&posts_per_page=1' ); ?>
-        <?php while($catquery->have_posts()) : $catquery->the_post(); ?>
-          <h4 class="no-decor"><?php echo the_category(); ?></h4>
-          <div class="blog-thumb">
-            <?php the_post_thumbnail($post_id, 'medium'); ?>
-          </div>
-          <a class="bold black" href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
-          <p><?php the_excerpt(); //the_content(); displays whole content?></p>
-        <a class="button" href="<?php the_permalink(); ?>">Read More >></a>
-        </div>  
-      <?php endwhile;
-      wp_reset_postdata();
-      ?>
-      
-      <div class="one-half column">
-        <?php $catquery = new WP_Query( 'cat=5&posts_per_page=1' ); ?>
-        <?php while($catquery->have_posts()) : $catquery->the_post(); ?>
-          <h4 class="no-decor"><?php echo the_category(); ?></h4>
-          <div class="blog-thumb">
-            <?php the_post_thumbnail($post_id, 'medium'); ?>
-          </div>
-          <a class="bold black" href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
-          <p><?php the_excerpt(); //the_content(); displays whole content?></p>
-        <a class="button" href="<?php the_permalink(); ?>">Read More >></a>
-        </div>  
-      <?php endwhile;
-      wp_reset_postdata();
-      ?>
-    </div>
+        <div class="one-half column">
+          <?php $catquery = new WP_Query( 'cat=4&posts_per_page=1' ); ?>
+          <?php while($catquery->have_posts()) : $catquery->the_post(); ?>
+            <h4 class="no-decor"><?php echo the_category(); ?></h4>
+            <div class="blog-thumb">
+              <?php the_post_thumbnail($post_id, 'medium'); ?>
+            </div>
+            <a class="bold black" href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
+            <p><?php the_excerpt(); //the_content(); displays whole content?></p>
+            <a class="button" href="<?php the_permalink(); ?>">Read More >></a>
+          </div>  
+        <?php endwhile;
+        wp_reset_postdata();
+        ?>
+        
+        <div class="one-half column">
+          <?php $catquery = new WP_Query( 'cat=5&posts_per_page=1' ); ?>
+          <?php while($catquery->have_posts()) : $catquery->the_post(); ?>
+            <h4 class="no-decor"><?php echo the_category(); ?></h4>
+            <div class="blog-thumb">
+              <?php the_post_thumbnail($post_id, 'medium'); ?>
+            </div>
+            <a class="bold black" href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
+            <p><?php the_excerpt(); //the_content(); displays whole content?></p>
+            <a class="button" href="<?php the_permalink(); ?>">Read More >></a>
+          </div>  
+        <?php endwhile;
+        wp_reset_postdata();
+        ?>
+      </div>
       
       <div class="lt-gray-bg">
         <div class="one-half column">
@@ -66,6 +66,7 @@ get_header(); ?>
             </div>
             <a class="bold black" href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
             <p><?php the_excerpt(); //the_content(); displays whole content?></p>
+            <a class="button" href="<?php the_permalink(); ?>">Read More >></a>
           </div>  
         <?php endwhile;
         wp_reset_postdata();
@@ -80,6 +81,7 @@ get_header(); ?>
             </div>
             <a class="bold black" href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
             <p><?php the_excerpt(); //the_content(); displays whole content?></p>
+            <a class="button" href="<?php the_permalink(); ?>">Read More >></a>
           </div>  
         <?php endwhile;
         wp_reset_postdata();
