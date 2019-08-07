@@ -191,6 +191,18 @@
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
+    
+## BLOG CONTAINER - TEMPLATE 2 ##
+    //Blog PAGE sidebar
+    register_sidebar( array(
+      'name'          => ('Blog: Right Sidebar'),
+      'id'            => 'blog-container-sidebar',
+      'description'   => 'Blog; Container Sidebar',
+      'before_widget' => '<div class="blog-container-sidebar">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
   
 ## BOOK ##
     //Featured Red Book Block

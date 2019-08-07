@@ -82,6 +82,7 @@ get_header(); ?>
       </div>
     </div>
     <div class="three columns">
+      <?php dynamic_sidebar('blog-container-sidebar'); ?>
     </div>
   </div>
 </div>
