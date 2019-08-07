@@ -25,11 +25,17 @@ get_header(); ?>
       if(have_posts()) : 
         while(have_posts()) :
            the_post(); ?>
+           <div class="four columns">
+             <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
+           </div>
+           <div class="eight columns">
            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-           <?php the_post_thumbnail('medium'); ?>
-                <?php publish_author_date(); ?>
-                <p><?php the_excerpt(); ?></p>
-                <a href="<?php the_permalink(); ?>">Read More...</a> <?php
+           
+              <?php publish_author_date(); ?>
+              <p><?php the_excerpt(); ?></p>
+              <a href="<?php the_permalink(); ?>">Read More...</a> 
+            </div>
+            <?php
     endwhile; 
   endif; ?>
 
