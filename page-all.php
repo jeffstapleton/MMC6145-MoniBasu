@@ -40,16 +40,6 @@ get_header(); ?>
         } 
         ?>
       </div>
-      
-      
-      <?php query_posts('posts_per_page=10');
-      if (have_posts()){
-        while (have_posts()){
-          the_post();
-      excerpt();
-    endwhile; 
-  endif; 
-  ?>
 
 </div>
       <div class="three columns">
