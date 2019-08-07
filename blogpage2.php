@@ -93,31 +93,7 @@ get_header(); ?>
     </div>
   </div>
 </div>
-
-<div class="container">
-<div class="row spacer-tb">
-<div class="twelve columns">
-<h4 class="center">All Posts:</h4>
-
-<?php 
-if(have_posts()){
-  while(have_posts()){
-    the_post();?>
-    <div class="twelve columns archive spacer-tb">
-      <div class="archive-row">
-        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-        <?php the_post_thumbnail('medium'); ?>
-        <?php publish_author_date(); ?>
-        <p><?php the_excerpt(); ?></p>
-        <a href="<?php the_permalink(); ?>">Read More...</a>
-      </div>
-    </div><?php
-  }
-} 
-?>
-
-</div>
-</div>
+<div class="spacer-tb">
 </div>
 
 <?php get_footer(); ?>
