@@ -32,7 +32,7 @@ get_header(); ?>
           </div>
           <a class="bold black" href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
           <p><?php the_excerpt(); //the_content(); displays whole content?></p>
-          
+        </div>  
       <?php endwhile;
       wp_reset_postdata();
       ?>
