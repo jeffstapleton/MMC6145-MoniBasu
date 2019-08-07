@@ -200,8 +200,8 @@
       'description'   => 'Blog; Container Sidebar',
       'before_widget' => '<div class="blog-container-sidebar">',
       'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
+      'before_title'  => '<h4 class="widget-title">',
+      'after_title'   => '</h4>'
     ));
   
 ## BOOK ##
