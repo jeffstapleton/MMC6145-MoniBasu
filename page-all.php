@@ -17,7 +17,7 @@ get_header(); ?>
       </div>
     </div>
   </div>
-<div class="container">
+<div class="container"><h2>fart</h2>
   <div class="row">
     <div class="nine columns">
       <?php if(have_posts()){
