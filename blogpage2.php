@@ -23,7 +23,9 @@ get_header(); ?>
 <div class="container">
   <div class="row">
     <div class="nine columns">
-      <h3 class="center">Featured Categories:</h3>
+      <div class="row">
+        <h3 class="center">Featured Categories:</h3>
+      </div>
       <div class="one-half column">
         <?php $catquery = new WP_Query( 'cat=4&posts_per_page=1' ); ?>
         <?php while($catquery->have_posts()) : $catquery->the_post(); ?>
@@ -33,8 +35,7 @@ get_header(); ?>
           </div>
           <a class="bold black" href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
           <p><?php the_excerpt(); //the_content(); displays whole content?></p>
-          <a class="button" href="<?php the_permalink(); ?>">Read More >></a>
-        </div>  
+          
       <?php endwhile;
       wp_reset_postdata();
       ?>
