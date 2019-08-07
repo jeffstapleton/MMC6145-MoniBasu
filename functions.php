@@ -183,32 +183,10 @@
   
     //Thirds About block widget
     register_sidebar( array(
-      'name'          => ('ABOUT: Bottom Left About'),
-      'id'            => 'bottom-left-about',
-      'description'   => 'ABOUT: Image Widget area for bottom left about page',
-      'before_widget' => '<div class="bottom-left-about">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
-    ));
-  
-    //Thirds About block widget
-    register_sidebar( array(
-      'name'          => ('ABOUT: Bottom Middle About'),
-      'id'            => 'bottom-middle-about',
-      'description'   => 'ABOUT: Widget area for bottom middle about page',
-      'before_widget' => '<div class="bottom-middle-about">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
-    ));
-  
-    //Thirds About block widget
-    register_sidebar( array(
-      'name'          => ('ABOUT: Bottom Right About'),
-      'id'            => 'bottom-right-about',
-      'description'   => 'HOME: Widget area for bottom right about page',
-      'before_widget' => '<div class="bottom-right-about">',
+      'name'          => ('ABOUT: Bottom Bar'),
+      'id'            => 'bottom-about',
+      'description'   => 'ABOUT: Image Widget area for bottom of about page',
+      'before_widget' => '<div class="bottom-about">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
