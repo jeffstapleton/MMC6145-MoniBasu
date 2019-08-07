@@ -23,9 +23,6 @@ get_header(); ?>
 <div class="container">
   <div class="row">
     <div class="nine columns">
-      <div class="row">
-        <h3 class="center">Featured Categories:</h3>
-      </div>
       <div class="one-half column">
         <?php $catquery = new WP_Query( 'cat=4&posts_per_page=1' ); ?>
         <?php while($catquery->have_posts()) : $catquery->the_post(); ?>
