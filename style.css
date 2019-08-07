@@ -211,6 +211,10 @@ img.custom-logo {
   padding-left:20px;
 }
 
+.responsive-logo{
+  display:none;
+}
+
 .nav-block {
   width:70%;
   justify-content:flex-end;
@@ -449,5 +453,12 @@ img.img-responsive {
   .single.eight.columns {
     width:100%;
     display:block;
+  }
+  
+  .responsive-logo {
+    position:absolute;
+  }
+  .responsive-logo img.custom-logo {
+    width:200px;
   }
 }
