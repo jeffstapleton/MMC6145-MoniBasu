@@ -22,7 +22,9 @@ get_header(); ?>
   <div class="row">
     <div class="nine columns">
       <?php query_posts('posts_per_page=5');
-      if (have_posts()) : while (have_posts()) : the_post();
+      if(have_posts()) : 
+        while(have_posts()) :
+           the_post();
       the_excerpt();
     endwhile; 
   endif; ?>
