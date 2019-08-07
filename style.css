@@ -236,8 +236,15 @@ ul#menu-main-menu {
 }
 #menu-main-menu li a:hover {
   transition: 0.3s;
-  color:#A3130E;
-  
+  color:#A3130E;  
+}
+
+/* -- HAMBURGER --- */
+ 
+a.responsive-menu-item-link {
+    font-size: 2em!important;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .nav-spacer {

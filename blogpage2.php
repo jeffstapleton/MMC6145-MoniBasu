@@ -18,7 +18,7 @@
       
     </div>
   </div>
-</div><p>test</p>
+</div>
 
 <div class="container spacer-tb">
   <div class="row">
