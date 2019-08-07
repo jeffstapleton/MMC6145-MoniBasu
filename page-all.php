@@ -19,27 +19,14 @@ get_header(); ?>
   </div>
   
 <div class="container">
-  <div class="row">
-        <?php query_posts('posts_per_page=10');
-        if(have_posts()){
-          while(have_posts()){
-            the_post();?>
-            <div class="nine columns archive spacer-tb">
-              <div class="archive-row">
-                <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                <?php the_post_thumbnail('small'); ?>
-                <?php publish_author_date(); ?>
-                <p><?php the_excerpt(); ?></p>
-                <a href="<?php the_permalink(); ?>">Read More...</a>
-            <?php
-              endwhile;
-            endif; ?>
-            </div>
-            </div><?php
-          }
-        } 
-        ?>
-      </div>
+      <?php query_posts('posts_per_page=10');
+      if (have_posts()){
+        while (have_posts()){
+          the_post();
+      excerpt();
+    endwhile; 
+  endif; 
+  ?>
 
 </div>
       <div class="three columns">
