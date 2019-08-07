@@ -24,7 +24,7 @@ get_header(); ?>
       if(have_posts()) : 
         while(have_posts()) :
           the_post(); ?>
-          <div class="row">
+          <div class="row spacer-tb">
             <div class="one-half column">
               <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium'); ?></a>
             </div>
