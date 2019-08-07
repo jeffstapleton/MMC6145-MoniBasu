@@ -17,7 +17,7 @@ get_header(); ?>
       </div>
     </div>
   </div>
-<div class="container"><h2>fart</h2>
+<div class="container">
   <div class="row">
     <div class="nine columns">
       <?php if(have_posts()){
@@ -35,7 +35,9 @@ get_header(); ?>
       ?>
 </div>
       <div class="three columns">
-        <div class="sidebar"><?php get_sidebar(); ?></div> <!-- This gets the sidebar and inserts it here -->
+        <div class="sidebar"><?php dynamic_sidebar('blog-container-sidebar'); ?>
+        <h2>fart</h2>
+        </div> <!-- This gets the sidebar and inserts it here -->
       </div>
 
 
