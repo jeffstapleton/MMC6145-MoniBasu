@@ -20,8 +20,9 @@ get_header(); ?>
   </div>
 </div>
 
-<div class="container spacer-tb">
+<div class="container">
   <div class="row">
+    <div class="eight columns">
     <div class="one-half column">
       <?php $catquery = new WP_Query( 'cat=4&posts_per_page=1' ); ?>
       <?php while($catquery->have_posts()) : $catquery->the_post(); ?>
@@ -80,7 +81,10 @@ get_header(); ?>
     wp_reset_postdata();
     ?>
   </div>
-  
+</div>
+<div class="four columns">
+<h2>Sidebar</h2>
+</div>
 </div>
 </div>
 
