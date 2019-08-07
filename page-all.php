@@ -19,14 +19,13 @@ get_header(); ?>
   </div>
   
 <div class="container">
-      <?php query_posts('posts_per_page=10');
-      if (have_posts()){
-        while (have_posts()){
-          the_post();
-      excerpt();
+  <div class="row">
+    <div class="nine columns">
+      <?php query_posts('posts_per_page=5');
+      if (have_posts()) : while (have_posts()) : the_post();
+      the_content();
     endwhile; 
-  endif; 
-  ?>
+  endif; ?>
 
 </div>
       <div class="three columns">
