@@ -36,7 +36,7 @@ get_header(); ?>
               <p><?php the_excerpt(); ?></p>
               <a href="<?php the_permalink(); ?>">Read More...</a> 
             </div>
-            
+          </div>
             <?php
           endwhile; 
         endif; ?>
