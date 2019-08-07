@@ -42,6 +42,7 @@ get_header(); ?>
   endif; ?>
 </div>
 </div>
+</div>
 
 </div>
       <div class="three columns">
