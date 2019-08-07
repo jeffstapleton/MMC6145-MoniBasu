@@ -256,6 +256,10 @@ a.responsive-menu-item-link {
   padding-bottom:60px;
 }
 
+button#responsive-menu-button {
+    margin: 80px 40px 0 0;
+}
+
 /* ------ PAGE & POST HERO IMAGES ------ */
 #hero img{
   max-height:600px;
