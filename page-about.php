@@ -63,16 +63,7 @@
 <!-- IMAGE DIV -->
 
 <div class="row lt-gray-bg bump-padding">
-  
-  <div class="one-third column">
-    <?php dynamic_sidebar('bottom-left-about'); ?>
-  </div>
-  <div class="one-third column">
-    <?php dynamic_sidebar('bottom-middle-about'); ?>
-  </div>
-  <div class="one-third column">
-    <?php dynamic_sidebar('bottom-right-about'); ?>
-  </div>
+    <?php dynamic_sidebar('bottom-about'); ?>
 </div>
 
 <!-- FEATURED SECTION -->
