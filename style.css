@@ -270,14 +270,7 @@ a.responsive-menu-item-link {
   margin-bottom:60px;
   background-size:cover;
   background-position:center;
-}
-
-.blog-thumb {
-  max-height: 270px;
-  width: 100%;
-  overflow: hidden;
-  object-fit: cover;
-}    
+}   
 
 .article-feature-image img,
 .responsive,
@@ -407,9 +400,11 @@ img.img-responsive {
 /* ------ BLOG PAGE ------ */
 
 .blog-thumb img {
-  width:100%;
-  height:auto;
-}
+  max-height: 270px;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+} 
 
 /* ------ ARCHIVE & CATEGORY PAGE LISTING ------ */
 
