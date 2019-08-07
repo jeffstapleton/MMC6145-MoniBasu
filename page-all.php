@@ -21,16 +21,13 @@ get_header(); ?>
 <div class="container">
   <div class="row">
     <div class="nine columns">
-          
-            <h3><a href="<?php the_permalink() ?>"><?php
-            the_title(); ?></a></h3>
-            <p>Published on: <?php the_time('F j, Y'); ?></p>
-            <p><?php the_excerpt(); ?></p>
-          </div>
-          <?php
-        }// ends while loop
-      }// ends if statement
-      ?>
+      <?php query_posts('posts_per_page=5');
+      if (have_posts()) : while (have_posts()) : the_post();
+      the_content();
+    endwhile; 
+  endif; 
+  ?>
+
 </div>
       <div class="three columns">
         <div class="sidebar"><?php dynamic_sidebar('blog-container-sidebar'); ?>
