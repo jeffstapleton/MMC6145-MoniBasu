@@ -94,4 +94,25 @@ get_header(); ?>
   </div>
 </div>
 
+<div class="container">
+<div class="row">
+<div class="twelve columns">
+<h4 class="center">All Posts:</h4>
+
+<?php 
+if ( have_posts() ) {
+	while ( have_posts() ) {
+		the_post(); 
+		//
+		// Post Content here
+		//
+	} // end while
+} // end if
+?>
+
+</div>
+
+</div>
+</div>
+
 <?php get_footer(); ?>
