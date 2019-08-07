@@ -211,7 +211,7 @@ img.custom-logo {
   padding-left:20px;
 }
 
-.mobile-row {
+#responsive-logo {
   display:none;
 }
 
@@ -459,6 +459,7 @@ img.img-responsive {
     display:flex;
     position:absolute;
   }
+  
   #responsive-logo img.custom-logo {
     width:150px;
     margin:25px 0 0 40px;
